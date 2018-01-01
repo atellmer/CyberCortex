@@ -1,0 +1,10 @@
+c:\users\anton\documents\visual studio 2013\Projects\FileWorker.BL\FileWorker.BL\obj\Debug\FileWorker.BL.csprojResolveAssemblyReference.cache
+c:\users\anton\documents\visual studio 2013\Projects\FileWorker.BL\FileWorker.BL\bin\Debug\FileWorker.BL.dll
+c:\users\anton\documents\visual studio 2013\Projects\FileWorker.BL\FileWorker.BL\bin\Debug\FileWorker.BL.pdb
+c:\users\anton\documents\visual studio 2013\Projects\FileWorker.BL\FileWorker.BL\obj\Debug\FileWorker.BL.dll
+c:\users\anton\documents\visual studio 2013\Projects\FileWorker.BL\FileWorker.BL\obj\Debug\FileWorker.BL.pdb
+H:\Графический интерфейс\FileWorker.BL\FileWorker.BL\bin\Debug\FileWorker.BL.dll
+H:\Графический интерфейс\FileWorker.BL\FileWorker.BL\bin\Debug\FileWorker.BL.pdb
+H:\Графический интерфейс\FileWorker.BL\FileWorker.BL\obj\Debug\FileWorker.BL.csprojResolveAssemblyReference.cache
+H:\Графический интерфейс\FileWorker.BL\FileWorker.BL\obj\Debug\FileWorker.BL.dll
+H:\Графический интерфейс\FileWorker.BL\FileWorker.BL\obj\Debug\FileWorker.BL.pdb

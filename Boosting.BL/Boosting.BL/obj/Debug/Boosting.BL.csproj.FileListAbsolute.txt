@@ -1,0 +1,12 @@
+c:\users\anton\documents\visual studio 2013\Projects\Boosting.BL\Boosting.BL\obj\Debug\Boosting.BL.csprojResolveAssemblyReference.cache
+c:\users\anton\documents\visual studio 2013\Projects\Boosting.BL\Boosting.BL\bin\Debug\Boosting.BL.dll
+c:\users\anton\documents\visual studio 2013\Projects\Boosting.BL\Boosting.BL\bin\Debug\Boosting.BL.pdb
+c:\users\anton\documents\visual studio 2013\Projects\Boosting.BL\Boosting.BL\bin\Debug\FileWorker.BL.dll
+c:\users\anton\documents\visual studio 2013\Projects\Boosting.BL\Boosting.BL\bin\Debug\FileWorker.BL.pdb
+c:\users\anton\documents\visual studio 2013\Projects\Boosting.BL\Boosting.BL\obj\Debug\Boosting.BL.dll
+c:\users\anton\documents\visual studio 2013\Projects\Boosting.BL\Boosting.BL\obj\Debug\Boosting.BL.pdb
+H:\Графический интерфейс\Boosting.BL\Boosting.BL\bin\Debug\Boosting.BL.dll
+H:\Графический интерфейс\Boosting.BL\Boosting.BL\bin\Debug\Boosting.BL.pdb
+H:\Графический интерфейс\Boosting.BL\Boosting.BL\obj\Debug\Boosting.BL.csprojResolveAssemblyReference.cache
+H:\Графический интерфейс\Boosting.BL\Boosting.BL\obj\Debug\Boosting.BL.dll
+H:\Графический интерфейс\Boosting.BL\Boosting.BL\obj\Debug\Boosting.BL.pdb

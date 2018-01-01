@@ -1,0 +1,35 @@
+H:\Графический интерфейс\Boosting.BL\Boosting.BL\bin\Release\Boosting.BL.dll
+H:\Графический интерфейс\Boosting.BL\Boosting.BL\bin\Release\Boosting.BL.pdb
+H:\Графический интерфейс\Boosting.BL\Boosting.BL\obj\Release\Boosting.BL.csprojResolveAssemblyReference.cache
+H:\Графический интерфейс\Boosting.BL\Boosting.BL\obj\Release\Boosting.BL.dll
+H:\Графический интерфейс\Boosting.BL\Boosting.BL\obj\Release\Boosting.BL.pdb
+H:\CyberCortex для продажи\Графический интерфейс\Boosting.BL\Boosting.BL\obj\Release\Boosting.BL.csprojResolveAssemblyReference.cache
+H:\CyberCortex для продажи\Графический интерфейс\Boosting.BL\Boosting.BL\obj\Release\Boosting.BL.dll
+H:\CyberCortex для продажи\Графический интерфейс\Boosting.BL\Boosting.BL\obj\Release\Boosting.BL.pdb
+H:\CyberCortex для продажи\Графический интерфейс\Boosting.BL\Boosting.BL\bin\Release\Boosting.BL.dll
+H:\CyberCortex для продажи\Графический интерфейс\Boosting.BL\Boosting.BL\bin\Release\Boosting.BL.pdb
+H:\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\bin\Release\Boosting.BL.dll
+H:\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\bin\Release\Boosting.BL.pdb
+H:\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\obj\Release\Boosting.BL.csprojResolveAssemblyReference.cache
+H:\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\obj\Release\Boosting.BL.dll
+H:\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\obj\Release\Boosting.BL.pdb
+H:\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\bin\Release\Boosting.BL.dll
+H:\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\bin\Release\Boosting.BL.pdb
+H:\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\obj\Release\Boosting.BL.csprojResolveAssemblyReference.cache
+H:\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\obj\Release\Boosting.BL.dll
+H:\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\obj\Release\Boosting.BL.pdb
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\bin\Release\Boosting.BL.dll
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\bin\Release\Boosting.BL.pdb
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\obj\Release\Boosting.BL.csprojResolveAssemblyReference.cache
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\obj\Release\Boosting.BL.dll
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\obj\Release\Boosting.BL.pdb
+H:\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\bin\Release\Boosting.BL.dll
+H:\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\bin\Release\Boosting.BL.pdb
+H:\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\obj\Release\Boosting.BL.csprojResolveAssemblyReference.cache
+H:\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\obj\Release\Boosting.BL.dll
+H:\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\obj\Release\Boosting.BL.pdb
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\bin\Release\Boosting.BL.dll
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\bin\Release\Boosting.BL.pdb
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\obj\Release\Boosting.BL.csprojResolveAssemblyReference.cache
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\obj\Release\Boosting.BL.dll
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\obj\Release\Boosting.BL.pdb

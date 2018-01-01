@@ -1,0 +1,8 @@
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\hardware id\hardware id\bin\Release\Generator.exe.config
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\hardware id\hardware id\bin\Release\Generator.exe
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\hardware id\hardware id\bin\Release\Generator.pdb
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\hardware id\hardware id\obj\Release\Generator.mainForm.resources
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\hardware id\hardware id\obj\Release\Generator.Properties.Resources.resources
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\hardware id\hardware id\obj\Release\Generator.csproj.GenerateResource.Cache
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\hardware id\hardware id\obj\Release\Generator.exe
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\hardware id\hardware id\obj\Release\Generator.pdb

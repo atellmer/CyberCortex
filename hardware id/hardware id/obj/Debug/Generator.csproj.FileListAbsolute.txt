@@ -1,0 +1,17 @@
+C:\Users\Anton\Documents\Visual Studio 2013\Projects\hardware id\hardware id\obj\Debug\Generator.mainForm.resources
+C:\Users\Anton\Documents\Visual Studio 2013\Projects\hardware id\hardware id\obj\Debug\Generator.Properties.Resources.resources
+C:\Users\Anton\Documents\Visual Studio 2013\Projects\hardware id\hardware id\obj\Debug\Generator.csproj.GenerateResource.Cache
+C:\Users\Anton\Documents\Visual Studio 2013\Projects\hardware id\hardware id\bin\Debug\Generator.exe.config
+C:\Users\Anton\Documents\Visual Studio 2013\Projects\hardware id\hardware id\bin\Debug\Generator.exe
+C:\Users\Anton\Documents\Visual Studio 2013\Projects\hardware id\hardware id\bin\Debug\Generator.pdb
+C:\Users\Anton\Documents\Visual Studio 2013\Projects\hardware id\hardware id\obj\Debug\Generator.exe
+C:\Users\Anton\Documents\Visual Studio 2013\Projects\hardware id\hardware id\obj\Debug\Generator.pdb
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\hardware id\hardware id\bin\Debug\Generator.exe.config
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\hardware id\hardware id\obj\Debug\Generator.exe
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\hardware id\hardware id\obj\Debug\Generator.pdb
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\hardware id\hardware id\bin\Debug\Generator.exe
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\hardware id\hardware id\bin\Debug\Generator.pdb
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\hardware id\hardware id\obj\Debug\Generator.csprojResolveAssemblyReference.cache
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\hardware id\hardware id\obj\Debug\Generator.mainForm.resources
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\hardware id\hardware id\obj\Debug\Generator.Properties.Resources.resources
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\hardware id\hardware id\obj\Debug\Generator.csproj.GenerateResource.Cache

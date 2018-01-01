@@ -1,0 +1,30 @@
+H:\Графический интерфейс\FileWorker.BL\FileWorker.BL\bin\Release\FileWorker.BL.dll
+H:\Графический интерфейс\FileWorker.BL\FileWorker.BL\bin\Release\FileWorker.BL.pdb
+H:\Графический интерфейс\FileWorker.BL\FileWorker.BL\obj\Release\FileWorker.BL.csprojResolveAssemblyReference.cache
+H:\Графический интерфейс\FileWorker.BL\FileWorker.BL\obj\Release\FileWorker.BL.dll
+H:\Графический интерфейс\FileWorker.BL\FileWorker.BL\obj\Release\FileWorker.BL.pdb
+H:\CyberCortex для продажи\Графический интерфейс\FileWorker.BL\FileWorker.BL\bin\Release\FileWorker.BL.dll
+H:\CyberCortex для продажи\Графический интерфейс\FileWorker.BL\FileWorker.BL\bin\Release\FileWorker.BL.pdb
+H:\CyberCortex для продажи\Графический интерфейс\FileWorker.BL\FileWorker.BL\obj\Release\FileWorker.BL.csprojResolveAssemblyReference.cache
+H:\CyberCortex для продажи\Графический интерфейс\FileWorker.BL\FileWorker.BL\obj\Release\FileWorker.BL.dll
+H:\CyberCortex для продажи\Графический интерфейс\FileWorker.BL\FileWorker.BL\obj\Release\FileWorker.BL.pdb
+H:\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\bin\Release\FileWorker.BL.dll
+H:\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\bin\Release\FileWorker.BL.pdb
+H:\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\obj\Release\FileWorker.BL.csprojResolveAssemblyReference.cache
+H:\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\obj\Release\FileWorker.BL.dll
+H:\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\obj\Release\FileWorker.BL.pdb
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\bin\Release\FileWorker.BL.dll
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\bin\Release\FileWorker.BL.pdb
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\obj\Release\FileWorker.BL.csprojResolveAssemblyReference.cache
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\obj\Release\FileWorker.BL.dll
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\obj\Release\FileWorker.BL.pdb
+H:\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\bin\Release\FileWorker.BL.dll
+H:\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\bin\Release\FileWorker.BL.pdb
+H:\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\obj\Release\FileWorker.BL.csprojResolveAssemblyReference.cache
+H:\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\obj\Release\FileWorker.BL.dll
+H:\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\obj\Release\FileWorker.BL.pdb
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\bin\Release\FileWorker.BL.dll
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\bin\Release\FileWorker.BL.pdb
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\obj\Release\FileWorker.BL.csprojResolveAssemblyReference.cache
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\obj\Release\FileWorker.BL.dll
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\obj\Release\FileWorker.BL.pdb

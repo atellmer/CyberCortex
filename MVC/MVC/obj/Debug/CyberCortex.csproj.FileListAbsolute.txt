@@ -1,0 +1,13 @@
+H:\Графический интерфейс\MVC\MVC\bin\Debug\CyberCortex.exe.config
+H:\Графический интерфейс\MVC\MVC\bin\Debug\CyberCortex.exe
+H:\Графический интерфейс\MVC\MVC\bin\Debug\CyberCortex.pdb
+H:\Графический интерфейс\MVC\MVC\bin\Debug\Boosting.BL.dll
+H:\Графический интерфейс\MVC\MVC\bin\Debug\FileWorker.BL.dll
+H:\Графический интерфейс\MVC\MVC\bin\Debug\Boosting.BL.pdb
+H:\Графический интерфейс\MVC\MVC\bin\Debug\FileWorker.BL.pdb
+H:\Графический интерфейс\MVC\MVC\obj\Debug\CyberCortex.csproj.GenerateResource.Cache
+H:\Графический интерфейс\MVC\MVC\obj\Debug\CyberCortex.exe
+H:\Графический интерфейс\MVC\MVC\obj\Debug\CyberCortex.pdb
+H:\Графический интерфейс\MVC\MVC\obj\Debug\CyberCortex.csprojResolveAssemblyReference.cache
+H:\Графический интерфейс\MVC\MVC\obj\Debug\CyberCortex.Properties.Resources.resources
+H:\Графический интерфейс\MVC\MVC\obj\Debug\CyberCortex.View.resources

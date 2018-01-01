@@ -1,0 +1,24 @@
+c:\users\anton\documents\visual studio 2013\Projects\MVC\MVC\bin\Debug\MVC.exe.config
+c:\users\anton\documents\visual studio 2013\Projects\MVC\MVC\bin\Debug\MVC.exe
+c:\users\anton\documents\visual studio 2013\Projects\MVC\MVC\bin\Debug\MVC.pdb
+c:\users\anton\documents\visual studio 2013\Projects\MVC\MVC\bin\Debug\FileWorker.BL.dll
+c:\users\anton\documents\visual studio 2013\Projects\MVC\MVC\bin\Debug\FileWorker.BL.pdb
+c:\users\anton\documents\visual studio 2013\Projects\MVC\MVC\obj\Debug\MVC.Properties.Resources.resources
+c:\users\anton\documents\visual studio 2013\Projects\MVC\MVC\obj\Debug\MVC.csproj.GenerateResource.Cache
+c:\users\anton\documents\visual studio 2013\Projects\MVC\MVC\obj\Debug\MVC.exe
+c:\users\anton\documents\visual studio 2013\Projects\MVC\MVC\obj\Debug\MVC.pdb
+c:\users\anton\documents\visual studio 2013\Projects\MVC\MVC\obj\Debug\MVC.View.resources
+c:\users\anton\documents\visual studio 2013\Projects\MVC\MVC\obj\Debug\MVC.csprojResolveAssemblyReference.cache
+H:\Графический интерфейс\MVC\MVC\bin\Debug\MVC.exe.config
+H:\Графический интерфейс\MVC\MVC\obj\Debug\MVC.exe
+H:\Графический интерфейс\MVC\MVC\obj\Debug\MVC.pdb
+H:\Графический интерфейс\MVC\MVC\bin\Debug\MVC.exe
+H:\Графический интерфейс\MVC\MVC\bin\Debug\MVC.pdb
+H:\Графический интерфейс\MVC\MVC\bin\Debug\FileWorker.BL.dll
+H:\Графический интерфейс\MVC\MVC\bin\Debug\FileWorker.BL.pdb
+H:\Графический интерфейс\MVC\MVC\obj\Debug\MVC.csprojResolveAssemblyReference.cache
+H:\Графический интерфейс\MVC\MVC\obj\Debug\MVC.Properties.Resources.resources
+H:\Графический интерфейс\MVC\MVC\obj\Debug\MVC.View.resources
+H:\Графический интерфейс\MVC\MVC\obj\Debug\MVC.csproj.GenerateResource.Cache
+H:\Графический интерфейс\MVC\MVC\bin\Debug\Boosting.BL.dll
+H:\Графический интерфейс\MVC\MVC\bin\Debug\Boosting.BL.pdb

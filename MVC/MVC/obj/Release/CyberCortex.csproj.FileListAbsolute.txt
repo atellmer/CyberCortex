@@ -1,0 +1,94 @@
+H:\Графический интерфейс\MVC\MVC\bin\Release\CyberCortex.exe.config
+H:\Графический интерфейс\MVC\MVC\bin\Release\CyberCortex.exe
+H:\Графический интерфейс\MVC\MVC\bin\Release\CyberCortex.pdb
+H:\Графический интерфейс\MVC\MVC\bin\Release\Boosting.BL.dll
+H:\Графический интерфейс\MVC\MVC\bin\Release\FileWorker.BL.dll
+H:\Графический интерфейс\MVC\MVC\bin\Release\Boosting.BL.pdb
+H:\Графический интерфейс\MVC\MVC\bin\Release\FileWorker.BL.pdb
+H:\Графический интерфейс\MVC\MVC\obj\Release\CyberCortex.csprojResolveAssemblyReference.cache
+H:\Графический интерфейс\MVC\MVC\obj\Release\CyberCortex.Properties.Resources.resources
+H:\Графический интерфейс\MVC\MVC\obj\Release\CyberCortex.View.resources
+H:\Графический интерфейс\MVC\MVC\obj\Release\CyberCortex.csproj.GenerateResource.Cache
+H:\Графический интерфейс\MVC\MVC\obj\Release\CyberCortex.exe
+H:\Графический интерфейс\MVC\MVC\obj\Release\CyberCortex.pdb
+H:\CyberCortex для продажи\Графический интерфейс\MVC\MVC\bin\Release\CyberCortex.exe.config
+H:\CyberCortex для продажи\Графический интерфейс\MVC\MVC\obj\Release\CyberCortex.exe
+H:\CyberCortex для продажи\Графический интерфейс\MVC\MVC\obj\Release\CyberCortex.pdb
+H:\CyberCortex для продажи\Графический интерфейс\MVC\MVC\bin\Release\CyberCortex.exe
+H:\CyberCortex для продажи\Графический интерфейс\MVC\MVC\bin\Release\CyberCortex.pdb
+H:\CyberCortex для продажи\Графический интерфейс\MVC\MVC\bin\Release\Boosting.BL.dll
+H:\CyberCortex для продажи\Графический интерфейс\MVC\MVC\bin\Release\FileWorker.BL.dll
+H:\CyberCortex для продажи\Графический интерфейс\MVC\MVC\bin\Release\Boosting.BL.pdb
+H:\CyberCortex для продажи\Графический интерфейс\MVC\MVC\bin\Release\FileWorker.BL.pdb
+H:\CyberCortex для продажи\Графический интерфейс\MVC\MVC\obj\Release\CyberCortex.csprojResolveAssemblyReference.cache
+H:\CyberCortex для продажи\Графический интерфейс\MVC\MVC\obj\Release\CyberCortex.Properties.Resources.resources
+H:\CyberCortex для продажи\Графический интерфейс\MVC\MVC\obj\Release\CyberCortex.View.resources
+H:\CyberCortex для продажи\Графический интерфейс\MVC\MVC\obj\Release\CyberCortex.csproj.GenerateResource.Cache
+H:\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\CyberCortex.exe.config
+H:\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.exe
+H:\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.pdb
+H:\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\CyberCortex.exe
+H:\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\CyberCortex.pdb
+H:\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\Boosting.BL.dll
+H:\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\FileWorker.BL.dll
+H:\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\Boosting.BL.pdb
+H:\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\FileWorker.BL.pdb
+H:\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.csprojResolveAssemblyReference.cache
+H:\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.Properties.Resources.resources
+H:\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.View.resources
+H:\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.csproj.GenerateResource.Cache
+H:\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\CyberCortex.exe.config
+H:\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.exe
+H:\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.pdb
+H:\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\CyberCortex.exe
+H:\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\CyberCortex.pdb
+H:\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\Boosting.BL.dll
+H:\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\FileWorker.BL.dll
+H:\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\Boosting.BL.pdb
+H:\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\FileWorker.BL.pdb
+H:\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.csprojResolveAssemblyReference.cache
+H:\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.Properties.Resources.resources
+H:\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.View.resources
+H:\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.csproj.GenerateResource.Cache
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\CyberCortex.exe.config
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.exe
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.pdb
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\CyberCortex.exe
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\CyberCortex.pdb
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\Boosting.BL.dll
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\FileWorker.BL.dll
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\Boosting.BL.pdb
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\FileWorker.BL.pdb
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.csprojResolveAssemblyReference.cache
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.Properties.Resources.resources
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.View.resources
+H:\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.csproj.GenerateResource.Cache
+D:\CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\CyberCortex.exe.config
+D:\CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.exe
+D:\CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.pdb
+H:\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\CyberCortex.exe.config
+H:\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.exe
+H:\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.pdb
+H:\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\CyberCortex.exe
+H:\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\CyberCortex.pdb
+H:\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\Boosting.BL.dll
+H:\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\FileWorker.BL.dll
+H:\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\Boosting.BL.pdb
+H:\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\FileWorker.BL.pdb
+H:\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.csprojResolveAssemblyReference.cache
+H:\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.Properties.Resources.resources
+H:\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.View.resources
+H:\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.csproj.GenerateResource.Cache
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\CyberCortex.exe.config
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.exe
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.pdb
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\CyberCortex.exe
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\CyberCortex.pdb
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\Boosting.BL.dll
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\FileWorker.BL.dll
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\Boosting.BL.pdb
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Release\FileWorker.BL.pdb
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.csprojResolveAssemblyReference.cache
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.Properties.Resources.resources
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.View.resources
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Release\CyberCortex.csproj.GenerateResource.Cache
