@@ -63,6 +63,13 @@
             this.checkLogs = new System.Windows.Forms.CheckBox();
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.startBtn = new System.Windows.Forms.Button();
+            this.symbol = new System.Windows.Forms.ComboBox();
+            this.exchange = new System.Windows.Forms.ComboBox();
+            this.exchangeLabel = new System.Windows.Forms.Label();
+            this.timeframeLabel = new System.Windows.Forms.Label();
+            this.timeframe = new System.Windows.Forms.ComboBox();
+            this.SymbolLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numSizeSample)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numLengthSample)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numSizeTestSample)).BeginInit();
@@ -409,14 +416,14 @@
             this.fieldForContent.Name = "fieldForContent";
             this.fieldForContent.ReadOnly = true;
             this.fieldForContent.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.fieldForContent.Size = new System.Drawing.Size(465, 434);
+            this.fieldForContent.Size = new System.Drawing.Size(465, 259);
             this.fieldForContent.TabIndex = 1;
             this.fieldForContent.WordWrap = false;
             // 
             // butClean
             // 
             this.butClean.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.butClean.Location = new System.Drawing.Point(172, 459);
+            this.butClean.Location = new System.Drawing.Point(179, 306);
             this.butClean.Name = "butClean";
             this.butClean.Size = new System.Drawing.Size(130, 30);
             this.butClean.TabIndex = 9;
@@ -430,7 +437,7 @@
             this.groupBox4.Controls.Add(this.fieldForContent);
             this.groupBox4.Location = new System.Drawing.Point(304, 12);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(477, 498);
+            this.groupBox4.Size = new System.Drawing.Size(477, 354);
             this.groupBox4.TabIndex = 27;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Консоль";
@@ -439,7 +446,7 @@
             // 
             this.checkLogs.AutoSize = true;
             this.checkLogs.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.checkLogs.Location = new System.Drawing.Point(6, 460);
+            this.checkLogs.Location = new System.Drawing.Point(23, 311);
             this.checkLogs.Name = "checkLogs";
             this.checkLogs.Size = new System.Drawing.Size(115, 16);
             this.checkLogs.TabIndex = 10;
@@ -450,21 +457,104 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label9.Location = new System.Drawing.Point(320, 45);
+            this.label9.Location = new System.Drawing.Point(290, 194);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(151, 26);
+            this.label9.Size = new System.Drawing.Size(184, 13);
             this.label9.TabIndex = 10;
-            this.label9.Text = "                  © Romanov, 2018\r\n";
+            this.label9.Text = "                  © Romanov, 2015 - 2018\r\n";
             // 
             // groupBox5
             // 
+            this.groupBox5.Controls.Add(this.startBtn);
+            this.groupBox5.Controls.Add(this.symbol);
+            this.groupBox5.Controls.Add(this.exchange);
+            this.groupBox5.Controls.Add(this.exchangeLabel);
+            this.groupBox5.Controls.Add(this.timeframeLabel);
+            this.groupBox5.Controls.Add(this.timeframe);
+            this.groupBox5.Controls.Add(this.SymbolLabel);
             this.groupBox5.Controls.Add(this.label9);
-            this.groupBox5.Location = new System.Drawing.Point(304, 510);
+            this.groupBox5.Location = new System.Drawing.Point(304, 372);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(477, 75);
+            this.groupBox5.Size = new System.Drawing.Size(477, 213);
             this.groupBox5.TabIndex = 28;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Сервер";
+            this.groupBox5.Text = "API";
+            // 
+            // startBtn
+            // 
+            this.startBtn.Location = new System.Drawing.Point(177, 116);
+            this.startBtn.Name = "startBtn";
+            this.startBtn.Size = new System.Drawing.Size(130, 30);
+            this.startBtn.TabIndex = 20;
+            this.startBtn.Text = "Старт";
+            this.startBtn.UseVisualStyleBackColor = true;
+            this.startBtn.Click += new System.EventHandler(this.startBtn_Click);
+            // 
+            // symbol
+            // 
+            this.symbol.FormattingEnabled = true;
+            this.symbol.Items.AddRange(new object[] {
+            "BTC - биткоин",
+            "ETH - эфириум",
+            "LTC - лайткоин"});
+            this.symbol.Location = new System.Drawing.Point(177, 43);
+            this.symbol.Name = "symbol";
+            this.symbol.Size = new System.Drawing.Size(132, 21);
+            this.symbol.TabIndex = 19;
+            this.symbol.SelectedIndexChanged += new System.EventHandler(this.symbol_SelectedIndexChanged);
+            // 
+            // exchange
+            // 
+            this.exchange.FormattingEnabled = true;
+            this.exchange.Items.AddRange(new object[] {
+            "Exmo",
+            "CCCAGG",
+            "Poloniex"});
+            this.exchange.Location = new System.Drawing.Point(10, 43);
+            this.exchange.Name = "exchange";
+            this.exchange.Size = new System.Drawing.Size(132, 21);
+            this.exchange.TabIndex = 18;
+            this.exchange.SelectedIndexChanged += new System.EventHandler(this.exchange_SelectedIndexChanged);
+            // 
+            // exchangeLabel
+            // 
+            this.exchangeLabel.AutoSize = true;
+            this.exchangeLabel.Location = new System.Drawing.Point(7, 21);
+            this.exchangeLabel.Name = "exchangeLabel";
+            this.exchangeLabel.Size = new System.Drawing.Size(39, 13);
+            this.exchangeLabel.TabIndex = 17;
+            this.exchangeLabel.Text = "Биржа";
+            // 
+            // timeframeLabel
+            // 
+            this.timeframeLabel.AutoSize = true;
+            this.timeframeLabel.Location = new System.Drawing.Point(335, 21);
+            this.timeframeLabel.Name = "timeframeLabel";
+            this.timeframeLabel.Size = new System.Drawing.Size(63, 13);
+            this.timeframeLabel.TabIndex = 15;
+            this.timeframeLabel.Text = "Таймфрейм";
+            // 
+            // timeframe
+            // 
+            this.timeframe.FormattingEnabled = true;
+            this.timeframe.Items.AddRange(new object[] {
+            "1m",
+            "1h",
+            "1d"});
+            this.timeframe.Location = new System.Drawing.Point(338, 43);
+            this.timeframe.Name = "timeframe";
+            this.timeframe.Size = new System.Drawing.Size(132, 21);
+            this.timeframe.TabIndex = 14;
+            this.timeframe.SelectedIndexChanged += new System.EventHandler(this.timeframe_SelectedIndexChanged);
+            // 
+            // SymbolLabel
+            // 
+            this.SymbolLabel.AutoSize = true;
+            this.SymbolLabel.Location = new System.Drawing.Point(176, 23);
+            this.SymbolLabel.Name = "SymbolLabel";
+            this.SymbolLabel.Size = new System.Drawing.Size(44, 13);
+            this.SymbolLabel.TabIndex = 12;
+            this.SymbolLabel.Text = "Символ";
             // 
             // View
             // 
@@ -534,6 +624,13 @@
         private System.Windows.Forms.CheckBox checkLogs;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.Label SymbolLabel;
+        private System.Windows.Forms.ComboBox timeframe;
+        private System.Windows.Forms.Label timeframeLabel;
+        private System.Windows.Forms.ComboBox exchange;
+        private System.Windows.Forms.Label exchangeLabel;
+        private System.Windows.Forms.ComboBox symbol;
+        private System.Windows.Forms.Button startBtn;
     }
 }
 

@@ -7,6 +7,7 @@ using FileWorker.BL;
 using Boosting.BL;
 using System.Threading;
 
+
 namespace CyberCortex
 {
     public class Presenter
@@ -18,7 +19,9 @@ namespace CyberCortex
         private Thread _threadForLearn;
         private Thread _threadForLoading;
         private Thread _threadForClassifiers;
-        
+        private bool _fetchFlag = true;
+        Api api = new Api();
+
         public Presenter(IFileManager fileManager, IView view, iAdaBoost adaboost)
         {
             this._fileManager = fileManager;
@@ -29,14 +32,8 @@ namespace CyberCortex
             _view.StartLearnClick += _view_StartLearn;
             _view.SaveClassifiersClick += _view_SaveClassifiersClick;
             _view.LoadClassifiersClick += _view_LoadClassifiersClick;
+            _view.StartConnectionClick += _view_StartConnectionClick;
             _adaboost.EmergenceLog += _adaboost_EmergenceLog;
-
-
-            Api api = new Api();
-
-            var result = api.GetInstrument("ETH");
-
-            Console.Write("BTC: {0}", result["Data"][0]["open"]);
         }
 
         #region Обработка нажатия кнопок в потоках
@@ -67,9 +64,67 @@ namespace CyberCortex
             _threadForLearn.IsBackground = true;
             _threadForLearn.Start();
         }
+
+        private void _view_StartConnectionClick(object sender, EventArgs e)
+        {
+            if (_view.GetRunDetector())
+            {
+                _fetchFlag = true;
+                GetAPIData();
+                periodicFetchAPI();
+            } 
+            else
+            {
+                _fetchFlag = false;
+            }
+        }
         #endregion
 
         #region Методы
+        private async Task periodicFetchAPI()
+        {
+            while (_fetchFlag)
+            {
+                GetAPIData();
+                await Task.Delay(1000);
+            }
+        }
+
+        void GetAPIData()
+        {
+            Console.WriteLine("rrr");
+            string[] symbolList = new string[] { "BTC", "ETH", "LTC" };
+            string[] timeframeList = new string[] { "histominute", "histohour", "histoday" };
+            string[] exchangeList = new string[] { "Exmo", "CCCAGG", "Poloniex" };
+
+            int symbolIndex = _view.GetSelectedSymbol();
+            int timeframeIndex = _view.GetSelectedTimeframe();
+            int exchangeIndex = _view.GetSelectedExchange();
+  
+            var result = api.GetInstrument(symbolList[symbolIndex], timeframeList[timeframeIndex], exchangeList[exchangeIndex], 100);
+
+                int resultLength = result["Data"].Count;
+                APIObject[] apiObjectList = new APIObject[resultLength];
+
+                for (int i = 0; i < resultLength; i++)
+                {
+                    double open = Convert.ToDouble(result["Data"][i]["open"]);
+                    double low = Convert.ToDouble(result["Data"][i]["low"]);
+                    double high = Convert.ToDouble(result["Data"][i]["high"]);
+                    double close = Convert.ToDouble(result["Data"][i]["close"]);
+                    int volume = Convert.ToInt32(result["Data"][i]["volumeto"]);
+
+                    apiObjectList[i] = new APIObject(open, low, high, close, volume);
+                }
+                //strategyConveerter
+
+                //prediction
+            
+
+
+            Console.WriteLine("GetAPIData: {0}", apiObjectList[99].close);
+        }
+
         void FileLoad()
         {
             ///////////////////////////////////////////

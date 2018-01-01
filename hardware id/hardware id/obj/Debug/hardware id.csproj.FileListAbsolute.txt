@@ -1,9 +1,0 @@
-c:\users\anton\documents\visual studio 2013\Projects\hardware id\hardware id\bin\Debug\hardware id.exe.config
-C:\Users\Anton\Documents\Visual Studio 2013\Projects\hardware id\hardware id\bin\Debug\hardware id.exe
-C:\Users\Anton\Documents\Visual Studio 2013\Projects\hardware id\hardware id\bin\Debug\hardware id.pdb
-C:\Users\Anton\Documents\Visual Studio 2013\Projects\hardware id\hardware id\obj\Debug\hardware id.csprojResolveAssemblyReference.cache
-C:\Users\Anton\Documents\Visual Studio 2013\Projects\hardware id\hardware id\obj\Debug\hardware_id.mainForm.resources
-C:\Users\Anton\Documents\Visual Studio 2013\Projects\hardware id\hardware id\obj\Debug\hardware_id.Properties.Resources.resources
-C:\Users\Anton\Documents\Visual Studio 2013\Projects\hardware id\hardware id\obj\Debug\hardware id.csproj.GenerateResource.Cache
-C:\Users\Anton\Documents\Visual Studio 2013\Projects\hardware id\hardware id\obj\Debug\hardware id.exe
-C:\Users\Anton\Documents\Visual Studio 2013\Projects\hardware id\hardware id\obj\Debug\hardware id.pdb

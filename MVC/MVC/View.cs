@@ -43,11 +43,15 @@ namespace CyberCortex
         void ActivationFieldToPathTestAnswers(bool activation);
         bool GetRunDetector();
         bool GetChekLogs();
+        int GetSelectedExchange();
+        int GetSelectedSymbol();
+        int GetSelectedTimeframe();
 
         event EventHandler FileLoadClick;
         event EventHandler StartLearnClick;
         event EventHandler SaveClassifiersClick;
         event EventHandler LoadClassifiersClick;
+        event EventHandler StartConnectionClick;
     }
 
     public partial class View : Form, IView
@@ -67,6 +71,11 @@ namespace CyberCortex
             butLearn.Click += butLearn_Click;
             butSaveClassifiers.Click += butSaveClassifiers_Click;
             butLoadClassifiers.Click += butLoadClassifiers_Click;
+
+            exchange.SelectedIndex = 0;
+            symbol.SelectedIndex = 0;
+            timeframe.SelectedIndex = 1;
+
         }
 
         void butLoadClassifiers_Click(object sender, EventArgs e)
@@ -449,9 +458,59 @@ namespace CyberCortex
             return checkLogs.Checked;
         }
 
+        public int GetSelectedExchange()
+        {
+            return exchange.SelectedIndex;
+        }
+
+        public int GetSelectedSymbol()
+        {
+            return symbol.SelectedIndex;
+        }
+
+        public int GetSelectedTimeframe()
+        {
+            return timeframe.SelectedIndex;
+        }
+
+        private void timeframe_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void exchange_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void symbol_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        void startBtn_Click(object sender, EventArgs e)
+        {
+            if (_runDetector == false)
+            {
+                startBtn.Text = "Стоп";
+                _runDetector = true;
+            }
+            else
+            {
+                startBtn.Text = "Старт";
+                _runDetector = false;
+            }
+      
+            if (StartConnectionClick != null)
+            {
+                StartConnectionClick(this, e);
+            }
+        }
+
         public event EventHandler FileLoadClick;
         public event EventHandler StartLearnClick;
         public event EventHandler SaveClassifiersClick;
         public event EventHandler LoadClassifiersClick;
+        public event EventHandler StartConnectionClick;
     }
 }
