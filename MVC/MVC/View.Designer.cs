@@ -51,9 +51,6 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label10 = new System.Windows.Forms.Label();
             this.numClassCount = new System.Windows.Forms.NumericUpDown();
-            this.butStart = new System.Windows.Forms.Button();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.label9 = new System.Windows.Forms.Label();
             this.numClassifiers = new System.Windows.Forms.NumericUpDown();
             this.label8 = new System.Windows.Forms.Label();
             this.butLearn = new System.Windows.Forms.Button();
@@ -64,15 +61,17 @@
             this.butClean = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.checkLogs = new System.Windows.Forms.CheckBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.numSizeSample)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numLengthSample)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numSizeTestSample)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numClassCount)).BeginInit();
-            this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numClassifiers)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
             // butSelectSamples
@@ -334,38 +333,6 @@
             0,
             0});
             // 
-            // butStart
-            // 
-            this.butStart.Enabled = false;
-            this.butStart.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.butStart.Location = new System.Drawing.Point(172, 27);
-            this.butStart.Name = "butStart";
-            this.butStart.Size = new System.Drawing.Size(130, 30);
-            this.butStart.TabIndex = 11;
-            this.butStart.Text = "Старт";
-            this.butStart.UseVisualStyleBackColor = true;
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.Controls.Add(this.butStart);
-            this.groupBox5.Controls.Add(this.label9);
-            this.groupBox5.Location = new System.Drawing.Point(304, 510);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(477, 75);
-            this.groupBox5.TabIndex = 28;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Сервер";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label9.Location = new System.Drawing.Point(320, 45);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(151, 26);
-            this.label9.TabIndex = 10;
-            this.label9.Text = "                  © Romanov, 2015\r\ncybercortex.store@gmail.com";
-            // 
             // numClassifiers
             // 
             this.numClassifiers.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -479,6 +446,26 @@
             this.checkLogs.Text = "Вывод лога обучения";
             this.checkLogs.UseVisualStyleBackColor = true;
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label9.Location = new System.Drawing.Point(320, 45);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(151, 26);
+            this.label9.TabIndex = 10;
+            this.label9.Text = "                  © Romanov, 2018\r\n";
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.label9);
+            this.groupBox5.Location = new System.Drawing.Point(304, 510);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(477, 75);
+            this.groupBox5.TabIndex = 28;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Сервер";
+            // 
             // View
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -500,13 +487,13 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numClassCount)).EndInit();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numClassifiers)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -533,8 +520,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.NumericUpDown numSizeTestSample;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button butStart;
-        private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.NumericUpDown numClassifiers;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button butLearn;
@@ -542,12 +527,13 @@
         private System.Windows.Forms.TextBox fieldForContent;
         private System.Windows.Forms.Button butClean;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button butSaveClassifiers;
         private System.Windows.Forms.Button butLoadClassifiers;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.NumericUpDown numClassCount;
         private System.Windows.Forms.CheckBox checkLogs;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.GroupBox groupBox5;
     }
 }
 

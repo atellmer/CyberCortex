@@ -18,8 +18,6 @@ namespace CyberCortex
         private Thread _threadForLearn;
         private Thread _threadForLoading;
         private Thread _threadForClassifiers;
-        private Thread _threadForNotification;
-        private int _countRecursion = 0;
         
         public Presenter(IFileManager fileManager, IView view, iAdaBoost adaboost)
         {
@@ -28,12 +26,17 @@ namespace CyberCortex
             this._adaboost = adaboost;
 
             _view.FileLoadClick += _view_FileLoadClick;
-            _view.StartPipeServerClick += _view_StartPipeServer;
             _view.StartLearnClick += _view_StartLearn;
             _view.SaveClassifiersClick += _view_SaveClassifiersClick;
             _view.LoadClassifiersClick += _view_LoadClassifiersClick;
             _adaboost.EmergenceLog += _adaboost_EmergenceLog;
-            Resolution();
+
+
+            Api api = new Api();
+
+            var result = api.GetInstrument("ETH");
+
+            Console.Write("BTC: {0}", result["Data"][0]["open"]);
         }
 
         #region Обработка нажатия кнопок в потоках
@@ -64,38 +67,6 @@ namespace CyberCortex
             _threadForLearn.IsBackground = true;
             _threadForLearn.Start();
         }
-
-        void _view_StartPipeServer(object sender, EventArgs e)
-        {
-            if (_view.GetRunDetector())
-            {
-                //////////////////////////////////////////
-                _view.ActivationButtonSelectSample(false);
-                _view.ActivationButtonSelectAnswer(false);
-                _view.ActivationButtonSelectTestSample(false);
-                _view.ActivationButtonSelectTestAnswer(false);
-                _view.ActivationButtonLoad(false);
-                _view.ActivationButtonLearn(false);
-                _view.ActivationButtonLoadClassifiers(false);
-                _view.ActivationButtonSaveClassifiers(false);
-                _view.ActivationNumLengthSample(false);
-                _view.ActivationNumSizeSample(false);
-                _view.ActivationNumSizeTestSample(false);
-                _view.ActivationNumClassCount(false);
-                _view.ActivationNumClassifiers(false);
-                ////////////////////////////////////////////
-
-                _view.SetContent(new string('*', 90) + "\r\n");
-                _view.SetContent("Создаю соединение и ожидаю связи с клиентом...\r\n");
-                _threadForPipe[0] = new Thread(StartPipeServer);
-                _threadForPipe[0].IsBackground = true;
-                _threadForPipe[0].Start();
-            }
-            else
-            {
-                StopPipeServer();
-            }
-        }
         #endregion
 
         #region Методы
@@ -110,7 +81,6 @@ namespace CyberCortex
             _view.ActivationButtonLearn(false);
             _view.ActivationButtonLoadClassifiers(false);
             _view.ActivationButtonSaveClassifiers(false);
-            _view.ActivationButtonStart(false);
             _view.ActivationNumLengthSample(false);
             _view.ActivationNumSizeSample(false);
             _view.ActivationNumSizeTestSample(false);
@@ -245,7 +215,6 @@ namespace CyberCortex
             _view.ActivationButtonLearn(false);
             _view.ActivationButtonLoadClassifiers(false);
             _view.ActivationButtonSaveClassifiers(false);
-            _view.ActivationButtonStart(false);
             _view.ActivationNumLengthSample(false);
             _view.ActivationNumSizeSample(false);
             _view.ActivationNumSizeTestSample(false);
@@ -269,7 +238,6 @@ namespace CyberCortex
                 _view.ActivationButtonLoad(true);
                 _view.ActivationButtonLearn(true);
                 _view.ActivationButtonSaveClassifiers(true);
-                _view.ActivationButtonStart(true);
                 ////////////////////////////////////////////////          
             }
             else
@@ -299,137 +267,6 @@ namespace CyberCortex
             }
         }
 
-        void StartPipeServer()
-        {
-            double[] dataFromClient = new double[_view.GetLength()];
-            double dataToClient = 0;
-
-            for (int i = 0; i < dataFromClient.Length; i++)
-            {
-                dataFromClient[i] = PipeServer.StartServer(0);
-                //_view.SetContent("Клиент: " + Convert.ToString(dataFromClient[i]) + "\r\n");
-            }
-
-            _adaboost.GetNormalForNewData(dataFromClient); //нормировка
-            dataToClient = _adaboost.GetNewPredict(dataFromClient);
-
-            PipeServer.StartServer(dataToClient);
-            //_view.SetContent("Сервер: " + Convert.ToString(dataToClient) + "\r\n");
-            PipeRecursion();
-        }
-
-        void PipeRecursion()
-        {
-            _countRecursion++;
-
-            if (_countRecursion < 10)
-            {
-                PipeServer.StopServer();
-                StartPipeServer();
-            }
-            else
-            {
-                if (_threadForPipe[0].IsAlive)
-                {
-                    _countRecursion = 0;
-                    _threadForPipe[1] = new Thread(StartPipeServer);
-                    _threadForPipe[1].IsBackground = true;
-                    _threadForPipe[1].Start();
-                    _threadForPipe[0].Abort();
-                }
-                if (_threadForPipe[1].IsAlive)
-                {
-                    _countRecursion = 0;
-                    _threadForPipe[0] = new Thread(StartPipeServer);
-                    _threadForPipe[0].IsBackground = true;
-                    _threadForPipe[0].Start();
-                    _threadForPipe[1].Abort();
-                }
-            }
-        }
-
-        void StopPipeServer()
-        {
-            _threadForNotification = new Thread(SendNotificationToClientAboutCloseServer);
-            _threadForNotification.IsBackground = true;
-            _threadForNotification.Start();
-
-            Thread.Sleep(10);
-            PipeServer.StopServer();
-            _view.SetContent("Cоединение закрыто.\r\n");
-
-            //////////////////////////////////////////
-            _view.ActivationButtonSelectSample(true);
-            _view.ActivationButtonSelectAnswer(true);
-            _view.ActivationButtonSelectTestSample(true);
-            _view.ActivationButtonSelectTestAnswer(true);
-
-            _view.ActivationButtonLoad(true);
-            _view.ActivationButtonLearn(true);
-            _view.ActivationButtonLoadClassifiers(true);
-
-            _view.ActivationNumLengthSample(true);
-            _view.ActivationNumSizeSample(true);
-            _view.ActivationNumSizeTestSample(true);
-            _view.ActivationNumClassCount(true);
-            _view.ActivationNumClassifiers(true);
-            //////////////////////////////////////////
-
-            //убийство потока, если поток жив
-            if (_threadForPipe[0] != null)
-            {
-                if (_threadForPipe[0].IsAlive)
-                {
-                    _threadForPipe[0].Abort();
-                }
-            }
-            if (_threadForPipe[1] != null)
-            {
-                if (_threadForPipe[1].IsAlive)
-                {
-                    _threadForPipe[1].Abort();
-                }
-            }
-
-            if (_threadForNotification.IsAlive)
-            {
-                _threadForNotification.Abort();
-            }
-        }
-
-        void SendNotificationToClientAboutCloseServer()
-        {
-            PipeServer.StartServer(-12345);
-        }
-
-        void Resolution()
-        {
-            if (!Searcher.GetResolution())
-            {
-                _view.ActivationButtonStart(false);
-                _view.ActivationButtonLearn(false);
-                _view.ActivationButtonLoad(false);
-                _view.ActivationButtonSelectSample(false);
-                _view.ActivationButtonSelectAnswer(false);
-                _view.ActivationButtonSelectTestSample(false);
-                _view.ActivationButtonSelectTestAnswer(false);
-                _view.ActivationButClean(false);
-                _view.ActivationNumLengthSample(false);
-                _view.ActivationNumSizeSample(false);
-                _view.ActivationNumSizeTestSample(false);
-                _view.ActivationNumClassCount(false);
-                _view.ActivationNumClassifiers(false);
-                _view.ActivationCheckLogs(false);
-                _view.ActivationFieldToPathSamples(false);
-                _view.ActivationFieldToPathAnswers(false);
-                _view.ActivationFieldToPathTestSamples(false);
-                _view.ActivationFieldToPathTestAnswers(false);
-                _view.SetContent("Внимание! Данная программа не зарегестрирована.\r\n");
-                _view.SetContent("Для того, чтобы зарегестрировать программу, свяжитесь с разработчиком.\r\n");
-                _view.SetContent("Электронная почта: cybercortex.store@gmail.com\r\n");
-            }
-        }
-
         void SaveClassifiers()
         {
             ////////////////////////////////////////////
@@ -440,7 +277,6 @@ namespace CyberCortex
             _view.ActivationButtonLoad(false);
             _view.ActivationButtonLearn(false);
             _view.ActivationButtonLoadClassifiers(false);
-            _view.ActivationButtonStart(false);
             _view.ActivationNumLengthSample(false);
             _view.ActivationNumSizeSample(false);
             _view.ActivationNumSizeTestSample(false);
@@ -472,7 +308,6 @@ namespace CyberCortex
             _view.ActivationButtonLoad(true);
             _view.ActivationButtonLearn(true);
             _view.ActivationButtonLoadClassifiers(true);
-            _view.ActivationButtonStart(true);
             _view.ActivationNumLengthSample(true);
             _view.ActivationNumSizeSample(true);
             _view.ActivationNumSizeTestSample(true);
@@ -498,7 +333,6 @@ namespace CyberCortex
             _view.ActivationButtonLearn(false);
             _view.ActivationButtonLoadClassifiers(false);
             _view.ActivationButtonSaveClassifiers(false);
-            _view.ActivationButtonStart(false);
             _view.ActivationNumLengthSample(false);
             _view.ActivationNumSizeSample(false);
             _view.ActivationNumSizeTestSample(false);
@@ -529,9 +363,6 @@ namespace CyberCortex
                         _adaboost.SetClassifiers(loadClassifiers);
                         _view.SetContent("Провожу тест классификаторов...\r\n");
                         _view.SetContent(_adaboost.GetTest());
-                        //////////////////////////////////
-                        _view.ActivationButtonStart(true);
-                        //////////////////////////////////
                     }
                     else
                     {

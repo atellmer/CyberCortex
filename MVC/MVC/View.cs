@@ -24,7 +24,6 @@ namespace CyberCortex
         int GetNumberClass();
         void ActivationButtonLearn(bool activation);
         void ActivationButtonLoad(bool activation);
-        void ActivationButtonStart(bool activation);
         void ActivationButtonSelectSample(bool activation);
         void ActivationButtonSelectAnswer(bool activation);
         void ActivationButtonSelectTestSample(bool activation);
@@ -46,7 +45,6 @@ namespace CyberCortex
         bool GetChekLogs();
 
         event EventHandler FileLoadClick;
-        event EventHandler StartPipeServerClick;
         event EventHandler StartLearnClick;
         event EventHandler SaveClassifiersClick;
         event EventHandler LoadClassifiersClick;
@@ -66,7 +64,6 @@ namespace CyberCortex
             butSelectTestAnswers.Click += butSelectTestAnswers_Click;
             butLoad.Click += butLoad_Click;
             butClean.Click += butClean_Click;
-            butStart.Click += butStart_Click;
             butLearn.Click += butLearn_Click;
             butSaveClassifiers.Click += butSaveClassifiers_Click;
             butLoadClassifiers.Click += butLoadClassifiers_Click;
@@ -93,25 +90,6 @@ namespace CyberCortex
             if (StartLearnClick != null)
             {
                 StartLearnClick(this, e);
-            }
-        }
-
-        void butStart_Click(object sender, EventArgs e)
-        {
-            if (_runDetector == false)
-            {
-                butStart.Text = "Стоп";
-                _runDetector = true;
-            }
-            else
-            {
-                butStart.Text = "Старт";
-                _runDetector = false;
-            }
-
-            if (StartPipeServerClick != null)
-            {
-                StartPipeServerClick(this, e);
             }
         }
 
@@ -242,18 +220,6 @@ namespace CyberCortex
             else
             {
                 butLearn.Enabled = activation;
-            }
-        }
-
-        public void ActivationButtonStart(bool activation)
-        {
-            if (InvokeRequired)
-            {
-                butStart.Invoke(new Action(() => butStart.Enabled = activation));
-            }
-            else
-            {
-                butStart.Enabled = activation;
             }
         }
 
@@ -484,7 +450,6 @@ namespace CyberCortex
         }
 
         public event EventHandler FileLoadClick;
-        public event EventHandler StartPipeServerClick;
         public event EventHandler StartLearnClick;
         public event EventHandler SaveClassifiersClick;
         public event EventHandler LoadClassifiersClick;
