@@ -11,3 +11,25 @@ H:\Графический интерфейс\MVC\MVC\obj\Debug\CyberCortex.pdb
 H:\Графический интерфейс\MVC\MVC\obj\Debug\CyberCortex.csprojResolveAssemblyReference.cache
 H:\Графический интерфейс\MVC\MVC\obj\Debug\CyberCortex.Properties.Resources.resources
 H:\Графический интерфейс\MVC\MVC\obj\Debug\CyberCortex.View.resources
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Debug\CyberCortex.exe.config
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Debug\CyberCortex.exe
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Debug\CyberCortex.pdb
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Debug\CyberCortex.exe
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Debug\CyberCortex.pdb
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Debug\Boosting.BL.dll
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Debug\FileWorker.BL.dll
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Debug\Boosting.BL.pdb
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Debug\FileWorker.BL.pdb
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Debug\CyberCortex.csprojResolveAssemblyReference.cache
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Debug\CyberCortex.Properties.Resources.resources
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Debug\CyberCortex.View.resources
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\obj\Debug\CyberCortex.csproj.GenerateResource.Cache
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Debug\LiveCharts.dll
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Debug\LiveCharts.WinForms.dll
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Debug\LiveCharts.Wpf.dll
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Debug\LiveCharts.pdb
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Debug\LiveCharts.xml
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Debug\LiveCharts.WinForms.pdb
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Debug\LiveCharts.WinForms.xml
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Debug\LiveCharts.Wpf.pdb
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\MVC\MVC\bin\Debug\LiveCharts.Wpf.xml

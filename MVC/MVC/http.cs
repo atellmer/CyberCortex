@@ -4,7 +4,7 @@ using System.IO;
 
 namespace CyberCortex
 {
-    class HTTP
+    class Http
     {
         public string Get(string uri)
         {

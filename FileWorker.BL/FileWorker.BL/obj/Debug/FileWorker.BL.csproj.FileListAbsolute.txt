@@ -8,3 +8,8 @@ H:\Графический интерфейс\FileWorker.BL\FileWorker.BL\bin\Deb
 H:\Графический интерфейс\FileWorker.BL\FileWorker.BL\obj\Debug\FileWorker.BL.csprojResolveAssemblyReference.cache
 H:\Графический интерфейс\FileWorker.BL\FileWorker.BL\obj\Debug\FileWorker.BL.dll
 H:\Графический интерфейс\FileWorker.BL\FileWorker.BL\obj\Debug\FileWorker.BL.pdb
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\bin\Debug\FileWorker.BL.dll
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\bin\Debug\FileWorker.BL.pdb
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\obj\Debug\FileWorker.BL.csprojResolveAssemblyReference.cache
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\obj\Debug\FileWorker.BL.dll
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\FileWorker.BL\FileWorker.BL\obj\Debug\FileWorker.BL.pdb

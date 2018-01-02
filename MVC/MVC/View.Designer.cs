@@ -70,6 +70,7 @@
             this.timeframeLabel = new System.Windows.Forms.Label();
             this.timeframe = new System.Windows.Forms.ComboBox();
             this.SymbolLabel = new System.Windows.Forms.Label();
+            this.cartesianChart1 = new LiveCharts.WinForms.CartesianChart();
             ((System.ComponentModel.ISupportInitialize)(this.numSizeSample)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numLengthSample)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numSizeTestSample)).BeginInit();
@@ -556,11 +557,20 @@
             this.SymbolLabel.TabIndex = 12;
             this.SymbolLabel.Text = "Символ";
             // 
+            // cartesianChart1
+            // 
+            this.cartesianChart1.Location = new System.Drawing.Point(7, 593);
+            this.cartesianChart1.Name = "cartesianChart1";
+            this.cartesianChart1.Size = new System.Drawing.Size(771, 281);
+            this.cartesianChart1.TabIndex = 33;
+            this.cartesianChart1.Text = "cartesianChart1";
+            // 
             // View
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(786, 590);
+            this.ClientSize = new System.Drawing.Size(787, 887);
+            this.Controls.Add(this.cartesianChart1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox5);
@@ -631,6 +641,7 @@
         private System.Windows.Forms.Label exchangeLabel;
         private System.Windows.Forms.ComboBox symbol;
         private System.Windows.Forms.Button startBtn;
+        private LiveCharts.WinForms.CartesianChart cartesianChart1;
     }
 }
 

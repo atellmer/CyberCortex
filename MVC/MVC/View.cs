@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using LiveCharts;
+using LiveCharts.Defaults;
+using LiveCharts.Wpf;
 
 namespace CyberCortex
 {
@@ -46,6 +49,7 @@ namespace CyberCortex
         int GetSelectedExchange();
         int GetSelectedSymbol();
         int GetSelectedTimeframe();
+        void setChartData(double[,] data);
 
         event EventHandler FileLoadClick;
         event EventHandler StartLearnClick;
@@ -75,7 +79,24 @@ namespace CyberCortex
             exchange.SelectedIndex = 0;
             symbol.SelectedIndex = 0;
             timeframe.SelectedIndex = 1;
+        }
 
+        public void setChartData(double[,] data)
+        {
+            ChartValues<OhlcPoint> chartValues = new ChartValues<OhlcPoint>();
+            
+            for (int i = 0; i < data.GetLength(0); i++)
+            {
+                chartValues.Add(new OhlcPoint(data[i, 1], data[i, 3], data[i, 2], data[i, 4]));
+            }
+
+            cartesianChart1.Series = new SeriesCollection
+            {
+                new OhlcSeries
+                {
+                    Values = chartValues
+                }
+            };
         }
 
         void butLoadClassifiers_Click(object sender, EventArgs e)

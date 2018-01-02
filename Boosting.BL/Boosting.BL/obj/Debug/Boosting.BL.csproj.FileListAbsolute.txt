@@ -10,3 +10,8 @@ H:\Графический интерфейс\Boosting.BL\Boosting.BL\bin\Debug\B
 H:\Графический интерфейс\Boosting.BL\Boosting.BL\obj\Debug\Boosting.BL.csprojResolveAssemblyReference.cache
 H:\Графический интерфейс\Boosting.BL\Boosting.BL\obj\Debug\Boosting.BL.dll
 H:\Графический интерфейс\Boosting.BL\Boosting.BL\obj\Debug\Boosting.BL.pdb
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\bin\Debug\Boosting.BL.dll
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\bin\Debug\Boosting.BL.pdb
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\obj\Debug\Boosting.BL.csprojResolveAssemblyReference.cache
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\obj\Debug\Boosting.BL.dll
+D:\disk\Project CyberCortex\CyberCortexGraphics\Мультиклассовый киберкортекс\Исходники CyberCortexGraphics\Boosting.BL\Boosting.BL\obj\Debug\Boosting.BL.pdb

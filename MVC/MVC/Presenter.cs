@@ -86,13 +86,12 @@ namespace CyberCortex
             while (_fetchFlag)
             {
                 GetAPIData();
-                await Task.Delay(1000);
+                await Task.Delay(10000);
             }
         }
 
         void GetAPIData()
         {
-            Console.WriteLine("rrr");
             string[] symbolList = new string[] { "BTC", "ETH", "LTC" };
             string[] timeframeList = new string[] { "histominute", "histohour", "histoday" };
             string[] exchangeList = new string[] { "Exmo", "CCCAGG", "Poloniex" };
@@ -103,26 +102,28 @@ namespace CyberCortex
   
             var result = api.GetInstrument(symbolList[symbolIndex], timeframeList[timeframeIndex], exchangeList[exchangeIndex], 100);
 
+            if (result["Data"].Count > 0)
+            {
                 int resultLength = result["Data"].Count;
-                APIObject[] apiObjectList = new APIObject[resultLength];
+                double[,] resultList = new double[resultLength, 6];
+                double predict = 0;
 
                 for (int i = 0; i < resultLength; i++)
                 {
-                    double open = Convert.ToDouble(result["Data"][i]["open"]);
-                    double low = Convert.ToDouble(result["Data"][i]["low"]);
-                    double high = Convert.ToDouble(result["Data"][i]["high"]);
-                    double close = Convert.ToDouble(result["Data"][i]["close"]);
-                    int volume = Convert.ToInt32(result["Data"][i]["volumeto"]);
-
-                    apiObjectList[i] = new APIObject(open, low, high, close, volume);
+                    resultList[i, 0] = Convert.ToDouble(result["Data"][i]["time"] + "000");
+                    resultList[i, 1] = Convert.ToDouble(result["Data"][i]["open"]);
+                    resultList[i, 2] = Convert.ToDouble(result["Data"][i]["low"]);
+                    resultList[i, 3] = Convert.ToDouble(result["Data"][i]["high"]);
+                    resultList[i, 4] = Convert.ToDouble(result["Data"][i]["close"]);
+                    resultList[i, 5] = Convert.ToDouble(result["Data"][i]["volumeto"]); 
                 }
-                //strategyConveerter
-
-                //prediction
-            
-
-
-            Console.WriteLine("GetAPIData: {0}", apiObjectList[99].close);
+                _view.setChartData(resultList);
+       
+                //_adaboost.GetNormalForNewData(Strategy.transformDataForStrategy(resultList));
+                //predict = _adaboost.GetNewPredict(Strategy.transformDataForStrategy(resultList));
+       
+               //_view.SetContent("Вероятный класс объекта: " + predict + "\r\n");
+            }
         }
 
         void FileLoad()
